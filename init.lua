@@ -3,7 +3,7 @@ require('colors')
 require('telescope-config')
 require('coc-config')
 require('lualine').setup()
--- require'nvim-treesitter.configs'.setup {
+--require'nvim-treesitter.configs'.setup {
 --   ensure_installed = "maintained",
 --   context_commentstring = {
 --     enable = true
@@ -15,7 +15,7 @@ require('lualine').setup()
 --   indent = {
 --     enable = true
 --   }
--- }
+--}
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use {'neoclide/coc.nvim', branch = 'release'}
