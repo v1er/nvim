@@ -2,10 +2,10 @@
 1.Install config
 
 Linux
-`git clone https://github.com/v1er/nvim.git ~/.config/nvim`
+```git clone https://github.com/v1er/nvim.git ~/.config/nvim```
 
 Windows
-`git clone https://github.com/v1er/nvim.git ~\AppData\Local\nvim`
+```git clone https://github.com/v1er/nvim.git ~\AppData\Local\nvim```
 
 2.Install plugins
 Install Packer
